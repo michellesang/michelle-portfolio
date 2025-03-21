@@ -1,0 +1,83 @@
+.experience {
+    padding: 0 15%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.experience .header {
+    font-size: 3.3vw;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin: 1vw;
+}
+
+.experience .title {
+    font-size: 1.8vw;
+    font-weight: 400;
+    letter-spacing: .3px;
+}
+
+.experience .company-duration {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experience .company {
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin: 0.5vw 0;
+    color: #444;
+    font-style: italic;
+}
+
+.experience .duration {
+    font-size: 1.2vw;
+    font-weight: 200;
+    margin: 0.5vw 0;
+    color: #555;
+}
+
+.experience .description {
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin: 1vw 0;
+    line-height: 1.5;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    margin-right: 5px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.tab.active {
+    background-color: #fff;
+}
+
+.tab-content {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
