@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import miffy_icon from '../assets/miffy_icon.png';
+import favicon from '/android-chrome-512x512.png';
 
 function Navbar() {
     const scrollToHome = () => {
@@ -23,7 +23,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 {/*<a className="nav-logo" onClick={scrollToHome}>HOME</a>*/}
-                <img className="nav-logo" onClick={scrollToHome} src={miffy_icon} alt="Miffy Icon"/>
+                <img className="nav-logo" onClick={scrollToHome} src={favicon} alt="Miffy Icon"/>
                 <div className="nav-bubble">
                     <ul className="nav-links">
                         <li><a onClick={scrollToAbout}>ABOUT</a></li>
