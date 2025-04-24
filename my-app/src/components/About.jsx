@@ -7,7 +7,7 @@ function About() {
         <div className="about" id="ABOUT">
             <div className="about-container">
                 <div className="about-text">
-                    <h1>about me</h1>
+                    <h1 className="header">about me</h1>
                     <p className="blurb">
                         I was born and raised in Austin, TX, before moving to Dallas to study
                         Computer Science at The University of Texas at Dallas. During my time as a student,

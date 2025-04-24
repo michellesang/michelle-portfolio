@@ -14,20 +14,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
 }
 
-.about-text h1 {
-    font-size: 3.3vw;
+.about .header {
+    font-size: 40px;
     font-weight: 200;
-    letter-spacing: 0.3px;
-    margin: 1vw;
+    letter-spacing: 5px;
+    margin: 30px;
+    text-align: center;
 }
 
 .blurb {
-    font-size: 1.1vw;
-    font-weight: 400;
-    margin: 1vw;
+    font-size: 15px;
 }
 
 .headshot {

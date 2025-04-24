@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #e6e6e6;
-    padding: 15px 40px;
+    background-color: rgba(230, 230, 230, 0);
+    padding: 15px 20px;
     display: flex;
     z-index: 1000;
 }
@@ -13,6 +13,20 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.nav-logo {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.nav-bubble {
+    background-color: rgba(238, 207, 220, 0.58);
+    border-radius: 30px;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 .nav-links {
@@ -28,6 +42,7 @@
     text-decoration: none;
     color: #000;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-links li a::after {
@@ -37,7 +52,7 @@
     background: #1d1d1d;
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -3px;
     transition: width 0.5s;
 }
 
